@@ -1,0 +1,22 @@
+{
+  "name": "social-auth-example",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "dotenv": "^4.0.0",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0",
+    "react-facebook-login": "^3.6.2",
+    "react-google-login": "^3.0.1",
+    "react-twitter-auth": "0.0.9"
+  },
+  "devDependencies": {
+    "react-scripts": "^1.0.17"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}

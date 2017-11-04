@@ -1,0 +1,50 @@
+{
+  "name": "passport-twitter-token",
+  "version": "1.2.0",
+  "description": "Twitter token authentication strategy for Passport",
+  "main": "lib/index.js",
+  "scripts": {
+    "compile": "babel src --out-dir lib",
+    "prepublish": "npm run compile",
+    "test": "istanbul cover _mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/drudge/passport-twitter-token.git"
+  },
+  "keywords": [
+    "passport",
+    "twitter",
+    "auth",
+    "authn",
+    "authentication",
+    "identity"
+  ],
+  "author": {
+    "name": "Nicholas Penree",
+    "email": "nick@penree.com",
+    "url": "http://penree.com"
+  },
+  "contributors": [
+    {
+      "name": "Eugene Obrezkov",
+      "email": "ghaiklor@gmail.com",
+      "url": "http://ghaiklor.com"
+    }
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "http://github.com/drudge/passport-twitter-token/issues"
+  },
+  "dependencies": {
+    "passport-oauth": "1.0.0"
+  },
+  "devDependencies": {
+    "babel": "5.8.23",
+    "chai": "3.3.0",
+    "chai-passport-strategy": "0.2.0",
+    "istanbul": "0.3.21",
+    "mocha": "2.3.3",
+    "sinon": "1.17.1"
+  }
+}
