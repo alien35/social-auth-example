@@ -15,7 +15,7 @@
     "express-server-utils": "^1.1.0",
     "jade": "~1.11.0",
     "jsonwebtoken": "^8.1.0",
-    "mongoose": "^4.13.0",
+    "mongoose": "^5.7.5",
     "morgan": "~1.7.0",
     "passport": "^0.4.0",
     "passport-facebook-token": "^3.3.0",
