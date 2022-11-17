@@ -11,7 +11,7 @@
     "react-twitter-auth": "0.0.9"
   },
   "devDependencies": {
-    "react-scripts": "^1.0.17"
+    "react-scripts": "^5.0.1"
   },
   "scripts": {
     "start": "react-scripts start",
